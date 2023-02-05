@@ -3,7 +3,7 @@ namespace Chrome__
     internal static class Program
     {
         [STAThread]
-        static void Main()
+        internal static void Main()
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new Window());
